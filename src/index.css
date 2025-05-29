@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@font-face {
+  font-family: 'MyFont'; /* Custom name you'll use */
+  src: url('/mytext.ttf') format('truetype'); /* Relative to public folder */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,main{
+  height: 100%;
+  width: 100%;
+ background: black;
+}
+
+.gamename{
+  font-family: 'MyFont';
+}
